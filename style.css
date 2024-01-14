@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Chicle');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800');
+
+body{
+	margin: 0;
+}
+header{
+	background: black;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 45px;
+}
+header h1{
+	display: inline;
+	font-family: 'Chicle', cursive;
+	font-weight: 400px;
+	font-size: 45px;
+	float: left;
+	margin-top: 0px;
+	margin-right:10px;
+	color:#238fd0;
+	
+}
+nav ul{
+	display: inline;
+	padding:0px;
+	float:left;
+}
+nav ul li{
+	display: inline;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left :15px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+#nav{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.homered{
+	background-color: red;
+	padding: 30px 10px 20px 10px;
+}
+
+.divider{
+	background-color: red;
+	height: 5px;
+}
+
+.homeblack:hover {
+	background-color: blue;
+	padding: 30px 10px 20px 10px;
+}
+
+.fwimage1{
+	background-image: url(Images/3.jpg);
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hii{
+	font-family: 'Anton', sans-serif;
+	margin: 15% 10% 5% 13%;
+	font-size:70px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.4);
+	display: inline-block;
+}
+
+.button{
+	margin: 0 auto;
+	margin-bottom : 10%;
+	
+}
+
+.fwimage1 .button a{
+	
+	position:absolute;
+	margin : 0 auto;
+	margin-left :40%;
+	margin-top :0;
+	
+	transform: transparent(-50%,-50%);
+	width: 180px;
+	height: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	
+	color: #ff0;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: verdana;
+	letter-spacing: 4px;
+	
+}
+
+.fwimage1 .button a:hover{
+	color: #fff;
+}
+
+.computerfund{
+	margin: 2% 5% 15% 13%;
+	float: left;
+}
+
+.logical{
+	margin: 2% 10% 15% 3%;
+	float: left;
+}
+
+.verbal{
+	margin: 2% 10% 15% 0%;
+	float: left;
+}
+
+.computerfund  .computertext a{
+	text-align:center;
+	font-family: 'Anton', sans-serif;
+	font-size:25px;
+	text-decoration:none;
+	color :white;
+}
+
+.computerfund  .computertext a:hover
+{color :red;}
+
+.logical .logicaltest a{
+	margin-left:30%;
+	font-family: 'Anton', sans-serif;
+	font-size:25px;
+	text-decoration:none;
+	color :white;
+}
+
+.logical .logicaltest a:hover
+{color :red;}
+
+.verbal .verbaltext a{
+	margin-left:30%;
+	font-family: 'Anton', sans-serif;
+	font-size:25px;
+	text-decoration:none;
+	color :white;
+}
+
+.verbal .verbaltext a:hover
+{color :red;}
+
+.footer{
+	clear: both;
+	width: 100%;
+	min-height: 300px;
+	background-color: black;
+}
+
+.footer .widgetfooter{
+	width: 100%;
+	min-height: 240px;
+}
+
+.footer .widgets{
+	width:20%;
+	min-height: 220px;
+	padding: 2.5%;
+	float: left;
+}
+
+.footer .widgets h4{
+	color: white;
+	border: bottom;
+	font-size: 15px;	
+}
+
+.footer .widgets p{
+	color: rgb(142,142,142);
+	font-size: medium;
+	margin: 8px,0px;
+}
+
+.footer .widgets strong{
+	color: white;
+}
+
+.footer .subscribetext{
+	width: 100%;
+	border: 1px solid rgba(0,128,0,0.23);
+	border-radius: 100px;
+	height: 25px;
+}
+
+.footer .subscribebtn{
+	border: 1px solid #d8ffe2;
+	background-color: red;
+	color: white;
+	font-size: 13px;
+	padding: 3px 10px;
+	border-radius: 100px;
+	margin-top:10px;
+}
+
+.subscribebtn:hover{
+	cursor: pointer;
+	background-color: blue;
+}
+
+.footer .widgets img{
+	margin:  10px;
+}
+
+.lin{
+	width: 100%;
+	height: 100%;
+    margin: 2% 10% 8% 0%;
+	float: left;
+
+}
+
+
+.wrapper{
+	width: 400px;
+	padding: 5px;
+	background: white;
+}
+
+.wrapper h2{
+text-transform: uppercase;
+color:blue
+}
+
+.wrapper input[type=text],
+.wrapper input[type=email],
+textarea{
+	width:100%;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+
+
+
+
